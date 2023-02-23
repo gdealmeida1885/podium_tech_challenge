@@ -7,5 +7,6 @@ module.exports = defineConfig({
     },
     baseUrl: "https://demo.podium.tools/qa-webchat-lorw/",
     defaultCommandTimeout: 6000,
+    projectId: "yfwf5a"
   },
 });
