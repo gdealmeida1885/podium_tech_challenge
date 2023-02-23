@@ -1,0 +1,13 @@
+{
+  "name": "podium_tech_challenge",
+  "version": "1.0.0",
+  "description": "Podium's QA Automation Tech Challenge",
+  "main": "index.js",
+  "author": "Gabriel Almeida",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.6.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}

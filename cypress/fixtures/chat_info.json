@@ -1,0 +1,47 @@
+{
+  "validForm": {
+    "name": "Aragorn Son of Arathorn",
+    "phone": "+5511954419893",
+    "message": "Let the Lord of the Black Land come forth! Let justice be done upon him!"
+  },
+  "invalidNumber": {
+    "name": "Gandalf The Grey",
+    "phone": "+1 555 512 521",
+    "message": "You shall not pass!"
+  },
+  "phoneNumberTooLong": {
+    "name": "Saruman The White",
+    "phone": "123123213123123131231312231231",
+    "message": "Who Now Has The Strength To Stand Against The Armies Of Isengard ... And Mordor?"
+  },
+  "invalidName": {
+    "name": "M3r14d0c Br4nd*buck",
+    "phone": "+55 44345 6662",
+    "message": "I think we might have made a mistake leaving the Shire, Pippin."
+  },
+  "invalidMessageSize": { 
+    "name": "Samwise Gamgee",
+    "phone": "+55 44345 6662",
+    "message": "Po-tay-toes! Boil 'em, mash 'em, stick 'em in a stew..."
+  },
+  "emptyName": { 
+    "name": "{backspace}",
+    "phone": "+55 44345 6662",
+    "message": "Not all those who wander are lost."
+  },
+  "emptyPhone": { 
+    "name": "Galadriel",
+    "phone": "{backspace}",
+    "message": "Even the smallest person can change the course of the future."
+  },
+  "emptyMessage": { 
+    "name": "Elrond Half-elven",
+    "phone": "+55 44345 6662",
+    "message": "{backspace}"
+  },
+  "emptyFields": { 
+    "name": "{backspace}",
+    "phone": "{backspace}",
+    "message": "{backspace}"
+  }
+}
