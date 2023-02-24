@@ -46,10 +46,10 @@ docker run -it gdealmeida/cypress-podium
 If you don't fell like buiding the image yourself, you can pull the image from the remote Dockerhub repository:
 
 ```shell
-Pull the image from the remote origin
+#Pull the image from the remote origin
 docker pull gdealmeida/cypress-podium:latest
 
-Run the container
+#Run the container
 docker run -it gdealmeida/cypress-podium
 ```
 
