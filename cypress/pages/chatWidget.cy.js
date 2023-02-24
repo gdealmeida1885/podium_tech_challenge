@@ -10,7 +10,6 @@ export default class ChatWidget extends BasePage {
     this.sendButton = 'button[data-e2e="send-message-btn"]';
     this.modalIframe = "#podium-modal";
     this.alertMessage = 'div[role="alert"]';
-    this.submitedFormErrorMessage = 'p '
   }
 
   fillChatForm(chatData) {
