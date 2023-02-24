@@ -6,27 +6,55 @@ This repository is used to store Podium's QA Tech Challenge.
 ### Project Configuration :gear:
 To manually configure this project, do the following:
 
-Clone this repo
-
 ```shell
+#Clone this repo
 git clone  https://github.com/gdealmeida1885/podium_tech_challenge
-```
-Move to the main folder and install it's node dependencies
-```shell
+
+#Move to the main folder
 cd podium_tech_challenge/
+
+#Install node's dependencies
 yarn install 
-```
-To run the tests headless run
-```shell
+
+#To run the tests headless run
 yarn cypress run
-```
-To run it on browser run 
-```shell
+
+#To run it on browser run 
 yarn cypress open
+
+#After Cypress opening, click on "E2E Testing", choose the desired browser and click on "Start E2E Testing in BrowserName" 
 ```
-After Cypress opening, click on _"E2E Testing"_, choose the desired browser and click on _"Start E2E Testing in BrowserName"_ 
 
 ---
+
+### Running the project with Docker :whale:
+**Disclaimer**: This is the first time I had to use docker in a project. It was a very fun experience to learn and apply it on this Tech Challenge and it probably is a very "newbie" implementation of Docker, it basically creates the image and run the tests on the container. 
+
+Building and running the image:
+
+```shell
+#To build the docker image locally, go to the root folder
+cd podium_tech_challenge/
+
+#Build the image from the docker file
+docker build -t gdealmeida/cypress-podium .
+
+#After building, run the container
+docker run -it gdealmeida/cypress-podium
+```
+
+If you don't fell like buiding the image yourself, you can pull the image from the remote Dockerhub repository:
+
+```shell
+Pull the image from the remote origin
+docker pull gdealmeida/cypress-podium:latest
+
+Run the container
+docker run -it gdealmeida/cypress-podium
+```
+
+---
+
 ### Identified Test Cases :male_detective:
 While doing some exploratory testing on the application, I've identified a few potential tests cases to guarantee the application's overall Quality. I also prioritized these test cases into Smoke, Regression and Health Check.
 * Smoke Tests: 
